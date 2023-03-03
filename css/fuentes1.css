@@ -1,12 +1,12 @@
 h1{
     font-size: 3em;
     color: brown;
-    font-family: 'Cinzel'
+    font-family: 'Cinzel', sans-serif;
 }
 h2{
     font-size: 2em;
     color: aqua;
-    font-family: 'Cinzel'
+    font-family: 'Cinzel', sans-serif;
 }
 /* cinzel-regular - latin */
 @font-face {
