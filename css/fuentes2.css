@@ -13,7 +13,9 @@ div{
 }
 label{
     font-size: 12em;
-    font-size: 'Bebas Neue', sans-serif;
+    color: rgb(240, 20, 20);
+    font-family: 'Bebas Neue';
+    text-align: center;
 }
 /* bebas-neue-regular - latin */
 @font-face {
