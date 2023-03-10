@@ -1,0 +1,56 @@
+h1 {
+    font-size: 3em;
+    text-align: center;
+}
+.box-direction {
+    display: flex;
+    flex-direction: row;
+}
+.box-style {
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 1.4em;
+    text-align: center;
+    font-family: tahoma, sans-serif;
+    font-weight: 900;
+}
+.box-DarkGoldenRod {
+    background-color: DarkGoldenRod;
+}
+.box-CadetBlue {
+    background-color: CadetBlue;
+}
+.box-CornflowerBlue {
+    background-color: CornflowerBlue;
+}
+.box-direction {
+    display: flex;
+    flex-direction: row;
+}
+.box-147-112-219 {
+    background-color: rgb(147, 112, 219)
+}
+.box-50-205-50 {
+    background-color: rgb(50, 205, 50);
+}
+.box-0-255-255 {
+    background-color: rgb(207, 33, 33, .5);
+}
+.box-direction {
+    display: flex;
+    flex-direction: row;
+}
+.box-87CEFA {
+    background-color: #87CEFA;
+}
+.box-FAEBD7 {
+    background-color: #FAEBD7;
+}
+.box-FFD700 {
+    background-color: #FFD700;
+}
