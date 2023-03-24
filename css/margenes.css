@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: rgb(242, 242, 242);
+    background-color: white;
 }
 .main-box {
     display: flex;
@@ -11,6 +11,7 @@
     flex-direction: row;
     /* vh: view height */
     height: 100vh;
+    background-color: white;
 }
 .box-style {
     width: 350px;
