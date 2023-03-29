@@ -1,16 +1,30 @@
+* {
+    background-color: black;
+    color: aliceblue
+1}
+ul {
+    color: white;
+}
 h1 {
-    font-size: 3em;
-    color: brown;
+    text-align: center;
+    font-size: 5em;
+    color: rgba(229, 77, 77, 0.832);
 }
 h2 {
+    text-align: center;
     font-size: 2em;
-    color: blue;
+    color: rgb(229, 77, 77, 0.832);
 }
 h3 {
+    text-align: center;
     font-size: 2em;
-    color: blue;
+    color: rgb(229, 77, 77, 0.832);
 }
 h4 {
+    text-align: center;
     font-size: 2em;
-    color: blue;
+    color: rgb(229, 77, 77, 0.832);
+}
+a {
+    color: white;
 }
