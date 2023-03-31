@@ -1,32 +1,44 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: rgb(194, 143, 80);
+    background-color: rgb(242, 242, 242);
 }
 .main-box {
     display: flex;
-    align-items: center;
-    margin-top: 200px;
-    justify-content: center;
     flex-direction: row;
-    /* vh: view height */
+    margin-top: 200px;
+    align-items: flex-start;
+    justify-content: center;
     height: 100vh;
 }
 .box-style {
     width: 350px;
     margin: 0 40px;
-    background-color: rgb(242, 242, 242);
+    background-color: rgb(255, 255, 255);
     height: 460px;
-    display: flex;
-    align-items: flex-end;
+}
+.product-box {
+    width: 230px;
+    height: 140px;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 50px;
+}    
+img {
+    margin-top: 10px;
+    margin-left: -30px;
+    background-color: transparent;
+
 }
 /* caja de color */
 .add-cart-1 {
+    margin-bottom: 0;
+    margin-top: 86px;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     width: 100%;
-    height: 60px;
+    height: 50px;
     background-color: rgb(39, 200, 163);
 }
 .add-cart-1-span {
@@ -34,7 +46,28 @@
     color: white;
     font-weight: 900;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: .9em;
+    font-size: 1.0em;
+}
+.product-text {
+    text-align: center;
+    background-color: white;
+}
+.product-text-span {
+    margin-bottom: 0;
+    margin-top: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    font-size: 1.3em;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(64, 64, 64,.9);
+}
+.text-description {
+    background-color: white;
+    color: rgb(64, 64, 64,.9);
+    font-size: .8em;
 }
 P {
     font-size: 1.4em;
@@ -54,8 +87,9 @@ P {
     color: white;
     font-weight: 900;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: .9em;
-}.add-cart-3 {
+    font-size: .9em;   
+}
+.add-cart-3 {
     display: flex;
     justify-content: center;
     align-items: center;
