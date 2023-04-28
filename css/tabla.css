@@ -12,41 +12,42 @@ th, td {
     border: 1px solid white;
     padding: 15px;
     text-align: center;
+    color: white;
 }
 .fa-solid {
-    color: rgb(50, 224, 79);    
+    color: rgb(106, 65, 180);    
 }
 .error-style {
     color: rgb(235, 34, 34);
 }
 .th-gold-1 {
-    background-color: rgb(44, 196, 198);
-    color: black;
+    background-color: rgb(106, 65, 180); 
+    color: rgb(250, 247, 247);
     border-top-left-radius: 20px;
 }
 .th-2 {
-    background-color: rgb(44, 196, 198);
-    color: black;
+    background-color: rgb(106, 65, 180); 
+    color: rgb(250, 247, 247);
 }
 .th-gold {
-    background-color: rgb(44, 196, 198);
-    color: black;
+    background-color: rgb(106, 65, 180); 
+    color:rgb(250, 247, 247);
 }
 .fondo {
-    background-color: rgb(234, 154, 73);
+    background-color: rgb(196, 150, 248);
 }
 .th-gold-2 {
-    background-color: rgb(44, 196, 198);
-    color: black;
+    background-color: rgb(106, 65, 180); 
+    color: rgb(250, 247, 247);
     border-bottom-left-radius: 20px;
 }
 .th-gold-3 {
-    background-color: rgb(44, 196, 198);
-    color: black;
+    background-color:rgb(106, 65, 180); 
+    color: rgb(250, 247, 247);
     border-top-right-radius: 20px;
 }
 .th-gold-4 {
-    background-color: rgb(234, 154, 73);
-    color: black;
+    background-color:rgb(196, 150, 248);
+    color: rgb(250, 247, 247);
     border-bottom-right-radius: 20px;
 }

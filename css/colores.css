@@ -20,37 +20,37 @@ h1 {
     font-weight: 900;
 }
 .box-DarkGoldenRod {
-    background-color: DarkGoldenRod;
+    background-color: salmon;
 }
 .box-CadetBlue {
-    background-color: CadetBlue;
+    background-color: Crimson;
 }
 .box-CornflowerBlue {
-    background-color: CornflowerBlue;
+    background-color: Pink;
 }
 .box-direction {
     display: flex;
     flex-direction: row;
 }
 .box-147-112-219 {
-    background-color: rgb(147, 112, 219)
+    background-color: rgb(255, 99, 71)
 }
 .box-50-205-50 {
-    background-color: rgb(50, 205, 50);
+    background-color: rgb(148, 0, 211);
 }
 .box-0-255-255 {
-    background-color: rgb(207, 33, 33, .5);
+    background-color: rgba(127, 255, 0);
 }
 .box-direction {
     display: flex;
     flex-direction: row;
 }
 .box-87CEFA {
-    background-color: #87CEFA;
+    background-color: #00FFFF;
 }
 .box-FAEBD7 {
-    background-color: #FAEBD7;
+    background-color: #6495ED;
 }
 .box-FFD700 {
-    background-color: #FFD700;
+    background-color: #D2691E;
 }

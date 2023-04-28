@@ -22,7 +22,7 @@
     height: 140px;
     background-color: white;
     margin-top: 30px;
-    margin-left: 50px;
+    margin-left: 80px;
 }    
 img {
     margin-top: 10px;
@@ -38,7 +38,7 @@ img {
     justify-content: center;
     width: 100%;
     height: 70px;
-    background-color: rgb(39, 200, 163);
+    background-color: rgb(224, 40, 40);
 }
 .add-cart-1-span {
     background-color: transparent;
