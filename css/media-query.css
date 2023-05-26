@@ -4,14 +4,21 @@
 }
 .main-nav {
     background-color:rgb(64, 64, 64) ;
-    height: 85px;
+    height: 80px;
     width: 100%;
+    font-size: 1.3em;
+    font-family:'Poppins', sans-serif; 
+    font-weight: 700;
+}
+.main-nav-2 {
+  background-color:rgb(255, 0, 0) ;
+  height: 80px;
+  width: 100%;
+  font-size: 1.3em;
+  font-family:'Poppins', sans-serif; 
+  font-weight: 700;
 }
 .main-menu {
-    color: white;
-    font-size: 1.3em;
-    font-family: 'Poppins', sans-serif; 
-    font-weight: 700;
     text-align: right;
     list-style: none;
 }
@@ -33,9 +40,23 @@ a {
 /* media query*/
 @media only screen and (max-width: 1500px) {
       .main-menu {
+      position: fixed;
+      list-style: none;
+      height: 100vh;
+      background-color: rgb(64, 64, 64);
+      text-align: center;
+      position: fixed;
+      width: 100%;
+      left: ;
+      }
+      .main-menu-block {
+        list-style: none;
         height: 100vh;
         background-color: rgb(64, 64, 64);
         text-align: center;
+        position: fixed;
+        width: 100%;
+
       }
       .item-style {
         display: block;
@@ -44,6 +65,7 @@ a {
       .menu-bar {
         display: inline-block;
         color: white;
+        text-emphasis: left;
         padding-top: 15px;
         margin-left: 25px;
         font-size: 2em;
