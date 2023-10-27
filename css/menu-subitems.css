@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav {
+    wid
+}
+nav ul {
+    background-color: rgb(64, 64, 64);
+    list-style: none;
+    position: absolute;
+    width: 100%;
+}
+/* mune de primer nivel */
+nav > ul > li {
+    width: 250px;
+    font-size: 1.4rem;
+    display: inline-block;
+    line-height: 70px;
+    text-align: center;
+    position: relative;
+}
+nav > ul {
+    margin-left: 40px;
+}
+ul li {
+    position: relative;
+}
+li:hover {
+    background-color: rgb(189, 233, 188);
+    cursor: pointer;
+}
+a {
+    color: rgb(14, 201, 195);
+    text-decoration: none;
+}
+/* Menu segundo nivel */
+nav li li {
+    max-height: 0;
+    overflow: hidden;
+}
+nav li:hover ul li {
+    overflow: visible;
+    max-height: 500px;
+}

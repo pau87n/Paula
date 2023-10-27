@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav {
+    width: 100%;
+    background-color: rgb(59, 23, 83);
+    font-family: Verdana, sans-serif;
+}
+ul {
+   width: 100%;
+   text-align: right;
+   list-style: none;
+}
+li {
+    display: inline-block;
+    position: relative;
+    width: 250px;
+    text-align: center;
+}
+a {
+    color: white;
+    font-size: 1.3rem;
+    text-decoration: none;
+    display: block;
+    line-height: 3em;
+}
+a:hover {
+    background-color: rgb(139, 139, 209);
+    cursor: pointer;
+}
+.icon-style {
+    margin-right: 8px;
+    font-size: 0.75em;
+}
+.icon-sd {
+    font-size: 0.9em;
+    position: relative;
+    left: 35px;
+}
+.child-menu {
+    position: relative;
+    overflow: hidden;
+    max-width: 0;
+    transition: all 1s;
+}
+.main-menu > li:hover .child-menu {
+    position: absolute;
+    color: black;
+    max-height: 500px;
+    
+}
