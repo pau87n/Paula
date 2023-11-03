@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     margin: 0;
     padding: 0;
@@ -7,15 +8,35 @@ nav {
 }
 nav ul {
     background-color: rgb(64, 64, 64);
+=======
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, sans-serif;
+}
+nav {
+    background-color: rgb(64,64,64);
+    height: 70px; 
+}
+ nav ul {
+    background-color: rgb(64,64,64);
+>>>>>>> 5bc00a8b29d836ff38da1edda35a7b9f5621b82c
     list-style: none;
     position: absolute;
     width: 100%;
 }
+<<<<<<< HEAD
 /* mune de primer nivel */
 nav > ul > li {
     width: 250px;
     font-size: 1.4rem;
     display: inline-block;
+=======
+nav > ul > li {
+    width: 250px;
+    float: left;
+    font-size: 1.4rem;
+>>>>>>> 5bc00a8b29d836ff38da1edda35a7b9f5621b82c
     line-height: 70px;
     text-align: center;
     position: relative;
@@ -27,6 +48,7 @@ ul li {
     position: relative;
 }
 li:hover {
+<<<<<<< HEAD
     background-color: rgb(189, 233, 188);
     cursor: pointer;
 }
@@ -43,3 +65,28 @@ nav li:hover ul li {
     overflow: visible;
     max-height: 500px;
 }
+=======
+    background-color: rgb(75, 218, 139);
+    cursor: pointer;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+nav li li {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1s;
+}
+nav li:hover > ul > li {
+    overflow: visible;
+    max-height: 500px;
+/*     border: 1px solid rgb(225, 225, 225, .2); */
+    transition: max-height 1s;
+}
+/*Menú Tercer Nivel */
+nav ul ul ul {
+    left: 100%;
+    top: 0;
+}
+>>>>>>> 5bc00a8b29d836ff38da1edda35a7b9f5621b82c

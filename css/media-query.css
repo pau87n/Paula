@@ -1,4 +1,5 @@
 * {
+<<<<<<< HEAD
     margin: 0;
     padding: 0;
 }
@@ -33,10 +34,47 @@
 a {
     text-decoration: none;
     color: rgb(255, 255, 255);
+=======
+   margin:0;
+   padding: 0;
+}
+.main-nav {
+    background-color:rgb(64, 64, 64) ;
+    height: 80px;
+    width: 100%;
+    font-size: 1.3em;
+    font-family:'Poppins', sans-serif; 
+    font-weight: 700;
+}
+.main-nav-2 {
+  background-color:rgb(255, 0, 0) ;
+  height: 80px;
+  width: 100%;
+  font-size: 1.3em;
+  font-family:'Poppins', sans-serif; 
+  font-weight: 700;
+}
+.main-menu {
+    text-align: right;
+    list-style: none;
+}
+.item-style{
+    padding: 20px 30px 28px 30px;
+    display: inline-block;
+}
+.item-style:hover {
+    cursor: pointer;
+    background-color: rgb(110,110,110);
+}
+a {
+   text-decoration: none;
+   color: white;
+>>>>>>> 5bc00a8b29d836ff38da1edda35a7b9f5621b82c
 }
 .menu-bar {
     display: none;
 }
+<<<<<<< HEAD
 /* Media Query */
 @media only screen and (max-width: 1500px) {
     .main-menu{
@@ -75,6 +113,44 @@ a {
     .menu-bar:hover {
         cursor: pointer;
     }
+=======
+/* media query*/
+@media only screen and (max-width: 1500px) {
+      .main-menu {
+      position: fixed;
+      list-style: none;
+      height: 100vh;
+      background-color: rgb(64, 64, 64);
+      text-align: center;
+      position: fixed;
+      width: 100%;
+      left: ;
+      }
+      .main-menu-block {
+        list-style: none;
+        height: 100vh;
+        background-color: rgb(64, 64, 64);
+        text-align: center;
+        position: fixed;
+        width: 100%;
+
+      }
+      .item-style {
+        display: block;
+        border-bottom: 1px solid rgb( 225, 225, 225,.2);
+      }
+      .menu-bar {
+        display: inline-block;
+        color: white;
+        text-emphasis: left;
+        padding-top: 15px;
+        margin-left: 25px;
+        font-size: 2em;
+     }
+     .menu-bar:hover {
+        cursor: pointer;
+     }
+>>>>>>> 5bc00a8b29d836ff38da1edda35a7b9f5621b82c
 }
 /* poppins-regular - latin */
 @font-face {
@@ -101,4 +177,8 @@ a {
          url('../fonts/poppins-v20-latin-700.woff') format('woff'), /* Modern Browsers */
          url('../fonts/poppins-v20-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
          url('../fonts/poppins-v20-latin-700.svg#Poppins') format('svg'); /* Legacy iOS */
+<<<<<<< HEAD
   } 
+=======
+  }
+>>>>>>> 5bc00a8b29d836ff38da1edda35a7b9f5621b82c
